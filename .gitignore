@@ -1,0 +1,18 @@
+# 仅上传运行代码、依赖和使用说明；其余文件默认留在本地。
+# 包括技能、数据、结果、图片、报告、缓存、虚拟环境及编辑器配置。
+/*
+!/.gitignore
+!/README.md
+!/divvy_weather/
+
+/divvy_weather/*
+!/divvy_weather/README.md
+!/divvy_weather/requirements.lock.txt
+!/divvy_weather/scripts/
+
+/divvy_weather/scripts/*
+!/divvy_weather/scripts/download.py
+!/divvy_weather/scripts/prepare.py
+!/divvy_weather/scripts/analyze.py
+!/divvy_weather/scripts/check_bicycle_only.py
+!/divvy_weather/scripts/freeze_protocol.py
